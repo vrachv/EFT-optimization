@@ -1,17 +1,19 @@
-## Guidelines
-This guide is designed to improve performance in the game Escape from Tarkov.
+## Рекомендации
+Эти рекомендации созданы для того, чтобы помочь улучшить стабильность игры Escape From Tarkov.
 
-If you think this guide can be improved, please let me know.
+Если Вы считаете, что эти рекомендации могут быть улучшены/исправлены, пожалуйста, дайте мне знать.
 
-## Contributing to this project
-Anyone and everyone is welcome to contribute.
+*Локализовано под Windows 10 - названия некоторых пунктов могут незначительно отличаться в зависимости от Вашей системы*
 
-## Table of Contents
+## Содействие 
+Содействие данному проекту приветствуется в любом виде.
 
-- [Update GPU Drivers](#update-gpu-drivers)
-- [NVIDIA Settings](#nvidia-settings)
-- [AMD Settings](#amd-settings)
-- [Full-screen optimizations](#full-screen-optimizations)
+## Содержание 
+
+- [Обновление драйверов видеокарты](#обновление-драйверов-видеокарты)
+- [Настройки NVIDIA](#настройки-nvidia)
+- [Настройки AMD](#настройки-amd)
+- [Оптимизация полноэкранного режима](#оптимизация-полноэкранного-режима)
 - [Virtual memory](#virtual-memory)
 - [Power Options](#power-options)
 - [Optimize Background Processes](#optimize-background-processes)
