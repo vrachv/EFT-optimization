@@ -21,7 +21,7 @@ Anyone and everyone is welcome to contribute.
 - [Windows Performance](#windows-performance)
 - [SSD](#ssd)
 - [Cleaning Temp folder](#cleaning-temp-folder)
-- [How fix freestyle](#how-fix-freestyle)
+- [How fix NVIDIA Freestyle](#how-fix-nvidia-freestyle)
 
 ## Update GPU Drivers
 
@@ -141,7 +141,7 @@ Z-Blur, Chrom. aberratins, Noise and Grass Shadows don't affect performance, but
 
 ## SSD
 
-**TODO**
+Escape from Tarkov should be installed on the SSD whenever possible
 
 ## Cleaning Temp folder
 
