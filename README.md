@@ -28,6 +28,7 @@ Anyone and everyone is welcome to contribute.
 You must have the latest driver for your GPU.
 
 NVIDIA drivers — [LINK](https://www.nvidia.com/download/index.aspx)
+
 AMD drivers — [LINK](https://www.amd.com/en/technologies/radeon-software)
 
 ## NVIDIA Settings
