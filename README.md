@@ -145,7 +145,18 @@ Escape from Tarkov should be installed on the SSD whenever possible
 
 ## Cleaning Temp folder
 
-**TODO**
+**WARNING**: If you don't understand what temporary files are, don't do this.
+
+- Press **Win+R**, type **%temp%** and press enter key
+- Delete everything in the folder that opens.
+
+- Press **Win+R**, type **temp** and press enter key
+- Delete everything in the folder that opens.
+
+- Press **Win+R**, type **prefetch** and press enter key
+- Delete everything in the folder that opens.
+
+Files that aren't deleted must be skipped!
 
 ## How fix NVIDIA Freestyle
 
