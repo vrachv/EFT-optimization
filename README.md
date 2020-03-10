@@ -151,14 +151,11 @@ Escape from Tarkov should be installed on the SSD
 - Go to **Properties** of the **Local Disk (C:)**
 - In **General** tab uncheck **Allow files on this drive to have contents indexed in addition to file properties**
 - **Apply**
-
 - Press **Win+R**, type **services.msc** and press enter key
 - Find **Superfetch** in Services
 - Go to **Properties** and select **Startup Type** on **Disabled**
-
 - Press **Win** key and type **cmd**, right click the first result and select **Run as administrator**
 - Type **powercfg -h off** and press enter key
-
 - Restart the computer
 
 ## Cleaning Temp folder
@@ -167,10 +164,8 @@ Escape from Tarkov should be installed on the SSD
 
 - Press **Win+R**, type **%temp%** and press enter key
 - Delete everything in the folder that opens.
-
 - Press **Win+R**, type **temp** and press enter key
 - Delete everything in the folder that opens.
-
 - Press **Win+R**, type **prefetch** and press enter key
 - Delete everything in the folder that opens.
 
