@@ -37,7 +37,6 @@ AMD drivers — [LINK](https://www.amd.com/en/technologies/radeon-software)
 - Go to the **Adjust image settings with preview**
 - Click the **Use my preference emphasising** and move the value to **Performance**
 - **Apply**
-
 - Go to **Manage 3D settings**
 - Click the **Program Settings**
 - Select or add **EscapeFromTarkov.exe** application
