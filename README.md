@@ -19,7 +19,7 @@ Anyone and everyone is welcome to contribute.
   - [Google Chrome](#google-chrome)
 - [Graphics settings in the game](#graphics-settings-in-the-game)
 - [Windows Performance](#windows-performance)
-- [SSD](#ssd)
+- [SSD optimizations](#ssd-optimizations)
 - [Cleaning Temp folder](#cleaning-temp-folder)
 - [How fix NVIDIA Freestyle](#how-fix-nvidia-freestyle)
 
@@ -137,11 +137,29 @@ Z-Blur, Chrom. aberratins, Noise and Grass Shadows don't affect performance, but
 
 ## Windows Performance
 
-**TODO**
+- Press **Win** key and type **performance**
+- Click to **Adjust the appearance and performance of Windows** from the results
+- Select the **Adjust for best performance**
+- Tick the **Smooth edge of screen fonts** and **Show window contents while dragging**
+- **Apply**
 
-## SSD
+## SSD optimizations
 
-Escape from Tarkov should be installed on the SSD whenever possible
+Escape from Tarkov should be installed on the SSD
+
+- Open file explorer and select **This PC**
+- Go to **Properties** of the **Local Disk (C:)**
+- In **General** tab uncheck **Allow files on this drive to have contents indexed in addition to file properties**
+- **Apply**
+
+- Press **Win+R**, type **services.msc** and press enter key
+- Find **Superfetch** in Services
+- Go to **Properties** and select **Startup Type** on **Disabled**
+
+- Press **Win** key and type **cmd**, right click the first result and select **Run as administrator**
+- Type **powercfg -h off** and press enter key
+
+- Restart the computer
 
 ## Cleaning Temp folder
 
