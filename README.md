@@ -77,10 +77,12 @@ AMD drivers — [LINK](https://www.amd.com/en/technologies/radeon-software)
 - Click the **Change** button from under the **Virtual memory**
 - Uncheck the **Automatically manage paging file size for all drives** checkbox
 - Click on the drive on which Windows is installed and set **Custom size**
-- For EFT, it is recommended to set from 15 to 30 GB, regardless of the size of RAM
+- For EFT, it is recommended to set from 15 to 25 GB, regardless of the size of RAM
 - Click **Set** and **OK**
+- Press **Win+R**, type **regedit** and press enter key
+- Go to **HKEY_LOCAL_MACHINE \ SYSTEM \ CurrentControlSet \ Control \ Session Manager \ Memory Management**
+- Locate **ClearPageFileAtShutdown** in the right panel and set value **1**.
 - Restart computer for apply
-
 
 ## Power Options
 
