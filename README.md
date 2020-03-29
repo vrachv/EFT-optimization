@@ -1,3 +1,6 @@
+#Escape from Tarkov optimization guide
+Read this in other languages: [English](README.md), [Russian](README.ru.md)
+
 ## Guidelines
 This guide is designed to improve performance in the game Escape from Tarkov.
 
@@ -54,10 +57,7 @@ AMD drivers — [LINK](https://www.amd.com/en/technologies/radeon-software)
 
 ## AMD Settings
 
-- Open **AMD Radeon Settings**
-- Go to the **Gaming**
-- Click on **Global Settings**
-- Click on the **Texture Filtering Quality** and select the **Performance**
+**TODO**
 
 ## Full-screen optimizations
 
@@ -74,14 +74,15 @@ AMD drivers — [LINK](https://www.amd.com/en/technologies/radeon-software)
 - Go to the **System** and click **Advanced system settings**
 - Click on the **Advanced** tab
 - Click the **Settings** button from under the **Performance**
+- Click on the **Advanced** tab
 - Click the **Change** button from under the **Virtual memory**
 - Uncheck the **Automatically manage paging file size for all drives** checkbox
 - Click on the drive on which Windows is installed and set **Custom size**
-- For EFT, it is recommended to set from 15 to 25 GB, regardless of the size of RAM
+- For EFT, it is recommended to set from **15000-25000**, regardless of the size of RAM. **Set the same value on both lines!**
 - Click **Set** and **OK**
 - Press **Win+R**, type **regedit** and press enter key
 - Go to **HKEY_LOCAL_MACHINE \ SYSTEM \ CurrentControlSet \ Control \ Session Manager \ Memory Management**
-- Locate **ClearPageFileAtShutdown** in the right panel and set value **1**.
+- Locate **ClearPageFileAtShutdown** in the right panel and set value **1**
 - Restart computer for apply
 
 ## Power Options
