@@ -1,4 +1,4 @@
-#Escape from Tarkov optimization guide
+# Escape from Tarkov optimization guide
 Read this in other languages: [English](README.md), [Russian](README.ru.md)
 
 ## Guidelines
