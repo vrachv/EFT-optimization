@@ -16,8 +16,8 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 - [Настройки AMD](#настройки-amd)
 - [Полноэкранная оптимизация](#полноэкранная-оптимизация)
 - [Файл подкачки](#файл-подкачки)
-- [Power Options](#power-options)
-- [Optimize Background Processes](#optimize-background-processes)
+- [Настройки электропитания](#настройки-электропитания)
+- [Оптимизация фоновых процессов](#оптимизация-фоновых-процессовs)
   - [Discord](#discord)
   - [Google Chrome](#google-chrome)
 - [Graphics settings in the game](#graphics-settings-in-the-game)
@@ -85,27 +85,27 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 - В правой панели найдите **ClearPageFileAtShutdown** и установите значение **1**
 - Перезагрузите компьютер
 
-## Power Options
+## Настройки электропитания
 
-- Press **Win+R**, type **powercfg.cpl** and press enter key
-- Select the **High performance**
+- Нажмите **Win+R**, напишите **powercfg.cpl** и нажмите **enter**
+- Выберите **Высокая производительность**
 
-## Optimize Background Processes
+## Оптимизация фоновых процессов
 
 ### Discord
 
-- Go to the **User Settings**
-- Go to the **Appearance**
-- Uncheck the **Hardware Acceleration**
-- Go to the **Overlay**
-- Uncheck the **Enable in-game overlay.**
+- Перейдите в **Настройки пользователя**
+- В левой панели нажмите **Внешний вид**
+- Выключите **Аппаратное ускорение**
+- В левой панели нажмите на **Оверлей**
+- Выключите **Включить внутриигровой оверлей.**
 
 ### Google Chrome
 
-- Using the address bar, go **chrome://settings/**
-- Click the **Advanced**
-- Go to the **System** tab
-- Uncheck the **Continue running background apps when Google Chrome is closed**
+- Используя адресную строку, перейдите **chrome://settings/**
+- В левой панели нажмите **Дополнительные**
+- Перейдите в **Система**
+- Выключите **Не отключать работающие в фоновом режиме сервисы при закрытии браузера**
 
 ## Graphics settings in the game
 
