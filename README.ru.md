@@ -1,20 +1,22 @@
 # Гайд по оптимизации Escape from Tarkov
 Read this in other languages: [English](README.md), [Russian](README.ru.md)
 
-## Guidelines
+*Локализовано под Windows 10 - названия некоторых пунктов могут незначительно отличаться в зависимости от Вашей системы*
+
+## Руководство
 Это руководство предназначено для повышения производительности в игре Escape from Tarkov.
 
 Если вы считаете, что это руководство можно улучшить, пожалуйста, дайте мне знать.
 
-## Contributing to this project
+## Содействие
 При желании каждый может внести свой вклад.
 
 ## Table of Contents
 
-- [Обновление драйверов GPU](#обновление-драйверов-gpu)
+- [Обновление драйверов видеокарты](#обновление-драйверов-видеокарты)
 - [Настройки NVIDIA](#настройки-nvidia)
 - [Настройки AMD](#настройки-amd)
-- [Полноэкранная оптимизация](#полноэкранная-оптимизация)
+- [Оптимизация полноэкранного режима](#оптимизация-полноэкранного-режима)
 - [Файл подкачки](#файл-подкачки)
 - [Настройки электропитания](#настройки-электропитания)
 - [Оптимизация фоновых процессов](#оптимизация-фоновых-процессов)
@@ -23,10 +25,10 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 - [Graphics settings in the game](#graphics-settings-in-the-game)
 - [Windows Performance](#windows-performance)
 - [SSD optimizations](#ssd-optimizations)
-- [Cleaning Temp folder](#cleaning-temp-folder)
+- [Очистка временных файлов](#очистка-временных-файлов)
 - [How fix NVIDIA Freestyle](#how-fix-nvidia-freestyle)
 
-## Обновление драйверов GPU
+## Обновление драйверов видеокарты
 
 Рекомендуется установить последнюю версию драйвера для вашего GPU.
 
@@ -59,13 +61,13 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 
 **TODO**
 
-## Полноэкранная оптимизация
+## Оптимизация полноэкранного режима
 
 - Зайдите в корневую папку игры
 - Зайдите в **Свойства** файла **EscapeFromTarkov.exe**
 - Перейдите в **Совместимость** и поставьте галочку **Отключить оптимизацию во весь экран**
 - На той же странице нажмите **Изменить параметры высокого DPI**
-- Поставьте галочку **Переопределите режим масштабирования выского разрешения.**, используйте выпадающее меню ниже **Масштабирование выполняется:**, и выберите **Приложение**
+- Поставьте галочку **Переопределение режима маштабирования высокого разрешения**, используйте выпадающее меню ниже **Масштабирование выполняется:**, и выберите **Приложение**
 - Нажмите **OK** и **OK**
 
 ## Файл подкачки
@@ -78,7 +80,7 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 - Нажмите **Изменить...** в блоке **Виртуальная память**
 - Уберите галочку **Автоматически выбирать объем файла подкачки**
 - Выберите системный диск и нажмите **Указать размер**
-- Для игры Escape from Tarkov рекомендуются значения 15000-25000, независимо от количества оперативной памяти. **Устанавливайте одинаковые значения в обоих строках!**
+- Для игры Escape from Tarkov рекомендуются значения 15000-25000, независимо от объема установленной оперативной памяти. **Устанавливайте одинаковые значения в обеих строках!**
 - Нажмите **Задать** и **OK**
 - Нажмите **Win+R**, напишите **regedit** и нажмите **enter**
 - Перейдите по пути **HKEY_LOCAL_MACHINE \ SYSTEM \ CurrentControlSet \ Control \ Session Manager \ Memory Management**
@@ -160,18 +162,20 @@ Escape from Tarkov should be installed on the SSD
 - Type **powercfg -h off** and press enter key
 - Restart the computer
 
-## Cleaning Temp folder
+## Очистка временных файлов
 
-**WARNING**: If you don't understand what temporary files are, don't do this.
+**ВНИМАНИЕ**: Если вы не понимаете, что такое временные файлы, пропустите данный пункт!
 
-- Press **Win+R**, type **%temp%** and press enter key
-- Delete everything in the folder that opens.
-- Press **Win+R**, type **temp** and press enter key
-- Delete everything in the folder that opens.
-- Press **Win+R**, type **prefetch** and press enter key
-- Delete everything in the folder that opens.
+- Нажмите комбинацию **Win+R**, наберите **%temp%** и нажмите **Enter**
+- Удалите все файлы в открывшейся папке.
 
-Files that aren't deleted must be skipped!
+- Нажмите комбинацию **Win+R**, наберите **temp** и нажмите **Enter**
+- Удалите все файлы в открывшейся папке.
+
+- Нажмите комбинацию **Win+R**, наберите **prefetch** и нажмите **Enter**
+- Удалите все файлы в открывшейся папке.
+
+Пропустите неудаляющиеся файлы!
 
 ## How fix NVIDIA Freestyle
 
