@@ -20,6 +20,7 @@ Anyone and everyone is welcome to contribute.
 - [Optimize Background Processes](#optimize-background-processes)
   - [Discord](#discord)
   - [Google Chrome](#google-chrome)
+  - [XBOX DVR](#xbox-dvr)
 - [Graphics settings in the game](#graphics-settings-in-the-game)
 - [Windows Performance](#windows-performance)
 - [SSD optimizations](#ssd-optimizations)
@@ -107,6 +108,10 @@ AMD drivers — [LINK](https://www.amd.com/en/technologies/radeon-software)
 - Go to the **System** tab
 - Uncheck the **Continue running background apps when Google Chrome is closed**
 
+### XBOX DVR
+
+**TODO**
+
 ## Graphics settings in the game
 
 Settings for minimum system requirements. If you have a good PC, you can increase the settings.
@@ -175,4 +180,11 @@ Files that aren't deleted must be skipped!
 
 ## How fix NVIDIA Freestyle
 
-**Researching**
+Option 1:
+- Perform a clean install of NVIDIA drivers using **GeForce Experience**
+
+Option 2:
+- Remove **GeForce Experience**
+- [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe) and install this
+- Go to settings.
+- In **General** tab and check the box **Enable experimental Features. A GeForce Experience update may be required.**

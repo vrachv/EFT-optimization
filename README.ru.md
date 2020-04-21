@@ -22,6 +22,7 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 - [Оптимизация фоновых процессов](#оптимизация-фоновых-процессов)
   - [Discord](#discord)
   - [Google Chrome](#google-chrome)
+  - [XBOX DVR](#xbox-dvr)
 - [Graphics settings in the game](#graphics-settings-in-the-game)
 - [Windows Performance](#windows-performance)
 - [SSD optimizations](#ssd-optimizations)
@@ -109,6 +110,10 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 - Перейдите в **Система**
 - Выключите **Не отключать работающие в фоновом режиме сервисы при закрытии браузера**
 
+### XBOX DVR
+
+**TODO**
+
 ## Graphics settings in the game
 
 Settings for minimum system requirements. If you have a good PC, you can increase the settings.
@@ -179,4 +184,11 @@ Escape from Tarkov should be installed on the SSD
 
 ## How fix NVIDIA Freestyle
 
-**Researching**
+Option 1:
+- Perform a clean install of NVIDIA drivers using **GeForce Experience**
+
+Option 2:
+- Remove **GeForce Experience**
+- [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe) and install this
+- Go to settings.
+- In **General** tab and check the box **Enable experimental Features. A GeForce Experience update may be required.**
