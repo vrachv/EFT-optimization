@@ -185,6 +185,6 @@ Option 1:
 
 Option 2:
 - Remove **GeForce Experience**
-- [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe) and install this
+- Download and install [this](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Go to settings.
-- In **General** tab and check the box **Enable experimental Features. A GeForce Experience update may be required.**
+- In **General** tab check the box **Enable experimental Features. A GeForce Experience update may be required.**
