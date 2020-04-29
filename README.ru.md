@@ -27,7 +27,6 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 - [Windows Performance](#windows-performance)
 - [SSD optimizations](#ssd-optimizations)
 - [Очистка временных файлов](#очистка-временных-файлов)
-- [How fix NVIDIA Freestyle](#how-fix-nvidia-freestyle)
 
 ## Обновление драйверов видеокарты
 
@@ -181,14 +180,3 @@ Escape from Tarkov should be installed on the SSD
 - Удалите все файлы в открывшейся папке.
 
 Пропустите неудаляющиеся файлы!
-
-## How fix NVIDIA Freestyle
-
-Option 1:
-- Perform a clean install of NVIDIA drivers using **GeForce Experience**
-
-Option 2:
-- Remove **GeForce Experience**
-- Download and install [this](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
-- Go to settings.
-- In **General** tab check the box **Enable experimental Features. A GeForce Experience update may be required.**
