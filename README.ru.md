@@ -24,8 +24,7 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
   - [Google Chrome](#google-chrome)
   - [XBOX DVR](#xbox-dvr)
 - [Graphics settings in the game](#graphics-settings-in-the-game)
-- [Windows Performance](#windows-performance)
-- [SSD optimizations](#ssd-optimizations)
+- [Оптимизация SSD](#оптимизация-ssd)
 - [Очистка временных файлов](#очистка-временных-файлов)
 
 ## Обновление драйверов видеокарты
@@ -111,18 +110,18 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 
 ### XBOX DVR
 
-NVIDIA GPUs are limited to two encoding sessions. Game DVR and Geforce Experience(ShadowPlay) will often consume both of these sessions if enabled, preventing you from recording or streaming(or both simultaneously) when using NVENC. Game DVR can also cause performance issues, it is still recommended to disable Game DVR even if you don't plan on using hardware encoding.
+Графические процессоры NVIDIA ограничены двумя сессиями кодирования. Game DVR и Geforce Experience(ShadowPlay) часто используют оба этих сеанса, что препятствует записи или потоковой передаче(или обоим одновременно) при использовании NVENC. Game DVR также может вызывать проблемы с производительностью, рекомендуется отключить его, даже если вы не планируете использовать аппаратное кодирование.
 
-- Right-click the Start button
-- Click **Settings**
-- Click **Gaming**
-- Click **Game Bar**
-- Set **Record game clips, screenshots and broadcast using Game bar** to **Off**
-- Click **Game Mode**
-- Set **Game Mode** to **Off**
-- Click **Captures**
-- Set **Record in the background while I'm playing a game** to **Off**
-- Reboot PC for apply
+- Нажмите ПКМ по кнопке «Пуск»
+- Нажмите **Параметры**
+- Нажмите **Игры**
+- Нажмите **Меню игры**
+- Отключите **Записывайте игровые клипы, делайте снимки экрана и транслируйте их с помощью меню игры**
+- Нажмите **Игровой режим**
+- Отключите **Режим игры**
+- Нажмите **Клипы**
+- Отключите **Вести запись в фоновом режиме, пока идет игра**
+- Перезагрузите компьютер
 
 ## Graphics settings in the game
 
@@ -154,28 +153,20 @@ Settings for minimum system requirements. If you have a good PC, you can increas
 
 Z-Blur, Chrom. aberratins, Noise and Grass Shadows don't affect performance, but may interfere with the gameplay.
 
-## Windows Performance
+## Оптимизация SSD
 
-- Press **Win** key and type **performance**
-- Click to **Adjust the appearance and performance of Windows** from the results
-- Select the **Adjust for best performance**
-- Tick the **Smooth edge of screen fonts** and **Show window contents while dragging**
-- **Apply**
+Escape from Tarkov должен быть установлен на SSD
 
-## SSD optimizations
-
-Escape from Tarkov should be installed on the SSD
-
-- Open file explorer and select **This PC**
-- Go to **Properties** of the **Local Disk (C:)**
-- In **General** tab uncheck **Allow files on this drive to have contents indexed in addition to file properties**
-- **Apply**
-- Press **Win+R**, type **services.msc** and press enter key
-- Find **Superfetch** in Services
-- Go to **Properties** and select **Startup Type** on **Disabled**
-- Press **Win** key and type **cmd**, right click the first result and select **Run as administrator**
-- Type **powercfg -h off** and press enter key
-- Reboot PC for apply
+- Откройте проводник и нажмите **Этот компьютер**
+- Нажмите ПКМ по **Локальный диск (C:)** и нажмите **Свойства**
+- В **Общие** снимите галочку **Разрешить индексировать содержимое файлов на этом диске в дополнение к свойствам файла**
+- Нажмите **Применить** и **OK**
+- Нажмите **Win+R**, напишите **services.msc** и нажмите **Enter**
+- Найдите **SysMain** в Службах
+- Перейдите в **Свойства** и поменяйте **Тип запуска** на **Отключена**
+- Нажмите кнопку **Win** и напишите **cmd**, щелкните ПКМ по первому результату и выберите **Запуск от имени администратора**
+- Напишите **powercfg -h off** и нажмите **Enter**
+- Перезагрузите компьютер
 
 ## Очистка временных файлов
 
