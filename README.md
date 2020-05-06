@@ -83,7 +83,7 @@ AMD drivers — [LINK](https://www.amd.com/en/technologies/radeon-software)
 - Press **Win+R**, type **regedit** and press enter key
 - Go to **HKEY_LOCAL_MACHINE \ SYSTEM \ CurrentControlSet \ Control \ Session Manager \ Memory Management**
 - Locate **ClearPageFileAtShutdown** in the right panel and set value **1**
-- Restart computer for apply
+- Reboot PC for apply
 
 ## Power Options
 
@@ -109,7 +109,18 @@ AMD drivers — [LINK](https://www.amd.com/en/technologies/radeon-software)
 
 ### XBOX DVR
 
-**TODO**
+NVIDIA GPUs are limited to two encoding sessions. Game DVR and Geforce Experience(ShadowPlay) will often consume both of these sessions if enabled, preventing you from recording or streaming(or both simultaneously) when using NVENC. Game DVR can also cause performance issues, it is still recommended to disable Game DVR even if you don't plan on using hardware encoding.
+
+- Right-click the Start button
+- Click **Settings**
+- Click **Gaming**
+- Click **Game Bar**
+- Set **Record game clips, screenshots and broadcast using Game bar** to **Off**
+- Click **Game Mode**
+- Set **Game Mode** to **Off**
+- Click **Captures**
+- Set **Record in the background while I'm playing a game** to **Off**
+- Reboot PC for apply
 
 ## Graphics settings in the game
 
@@ -162,7 +173,7 @@ Escape from Tarkov should be installed on the SSD
 - Go to **Properties** and select **Startup Type** on **Disabled**
 - Press **Win** key and type **cmd**, right click the first result and select **Run as administrator**
 - Type **powercfg -h off** and press enter key
-- Restart the computer
+- Reboot PC for apply
 
 ## Cleaning Temp folder
 
