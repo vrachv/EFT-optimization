@@ -183,7 +183,7 @@ Files that aren't deleted must be skipped!
 ## How enable NVIDIA Freestyle
 
 - Remove **GeForce Experience**
-- Download and install [this(LINK)](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
+- Download and install — [LINK](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Run **GeForce Experience** and login to your NVIDIA account
 - Press **Win+R**, type **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA GeForce Experience.json** and press enter key (open with Notepad)
 - Find **"nv-self-update-path=Downloader\\gfeupdate.json",**
