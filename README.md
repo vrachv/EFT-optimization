@@ -24,6 +24,7 @@ Anyone and everyone is welcome to contribute.
 - [Graphics settings in the game](#graphics-settings-in-the-game)
 - [SSD optimizations](#ssd-optimizations)
 - [Cleaning Temp folder](#cleaning-temp-folder)
+- [How enable NVIDIA Freestyle (12.5+)](#how-enable-nvidia-freestyle)
 
 ## Update GPU Drivers
 
@@ -178,3 +179,13 @@ Escape from Tarkov should be installed on the SSD
 - Delete everything in the folder that opens.
 
 Files that aren't deleted must be skipped!
+
+## How enable NVIDIA Freestyle
+
+- Remove **GeForce Experience**
+- Download and install [this](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
+- Run **GeForce Experience** and login to your NVIDIA account
+- Press **Win+R**, type **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA GeForce Experience.json** and press enter key (open with Notepad)
+- Find **"nv-self-update-path=Downloader\\gfeupdate.json",**
+- Replace **Downloader** with **1Downloader**
+- Save and close file
