@@ -3,6 +3,7 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 
 ## Guidelines
 This guide is designed to improve performance in the game Escape from Tarkov.
+We aren't responsible for your actions on your computer.
 
 If you think this guide can be improved, please let me know.
 
