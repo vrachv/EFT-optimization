@@ -189,6 +189,6 @@ Files that aren't deleted must be skipped!
 - Press **Win+R**, type **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA GeForce Experience.json** and press enter key (open with Notepad)
 - Find **"nv-self-update-path=Downloader\\gfeupdate.json",**
 - Replace **Downloader** with **1Downloader**
-- Save and close file
+- Save changes and close file
 
 **Some updates:** You need to install NVIDIA driver version 446.14
