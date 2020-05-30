@@ -190,3 +190,5 @@ Files that aren't deleted must be skipped!
 - Find **"nv-self-update-path=Downloader\\gfeupdate.json",**
 - Replace **Downloader** with **1Downloader**
 - Save and close file
+
+**Some updates:** You need to install NVIDIA driver version 446.14
