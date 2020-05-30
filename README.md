@@ -195,3 +195,6 @@ Files that aren't deleted must be skipped!
 - You need to install NVIDIA driver version 445.87 - [LINK](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Don't use GeForce Experience experimental features
 - Don't update GeForce Experience and NVIDIA drivers
+
+**ReShade filters for NVIDIA freestyle** - [LINK](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
+- Copy folder **Custom** along the path **C:\Program Files\NVIDIA Corporation\Ansel**

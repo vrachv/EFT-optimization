@@ -199,3 +199,6 @@ Escape from Tarkov должен быть установлен на SSD
 - Вам нужно установить драйвер версии 445.87 - [LINK](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Не используйте эксперементальные функции GeForce Experience
 - Не обновляйте GeForce Experience и драйвера NVIDIA
+
+**ReShade фильтры для NVIDIA freestyle** - [LINK](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
+- Скопируйте папку **Custom** по пути **C:\Program Files\NVIDIA Corporation\Ansel**
