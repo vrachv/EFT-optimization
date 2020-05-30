@@ -190,7 +190,11 @@ Escape from Tarkov должен быть установлен на SSD
 - Удалите **GeForce Experience**
 - Скачайте и установите — [LINK](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Запустите **GeForce Experience** и войдите в свой аккаунт NVIDIA
-- Нажмите **Win+R**, напишите **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA GeForce Experience.json** и нажмите Enter (открыть с помощью Блокнота)
+- Нажмите **Win+R**, напишите **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA GeForce Experience.json** и нажмите Enter (используйте Notepad++)
 - Найдите строчку **"nv-self-update-path=Downloader\\gfeupdate.json",**
 - Замените **Downloader** на **1Downloader**
-- Сохраните и закройте файл
+- Сохраните изменения и закройте файл
+
+**Дополнения:**
+- Вам нужно установить драйвер версии 445.87 - [LINK](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
+- Не используйте эксперементальные функции GeForce Experience
