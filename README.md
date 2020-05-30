@@ -192,5 +192,5 @@ Files that aren't deleted must be skipped!
 - Save changes and close file
 
 **Some updates:**
-- You need to install NVIDIA driver version 446.14
+- You need to install NVIDIA driver version 445.87
 - Don't use GeForce Experience experimental features
