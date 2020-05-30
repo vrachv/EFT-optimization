@@ -194,3 +194,4 @@ Files that aren't deleted must be skipped!
 **Some updates:**
 - You need to install NVIDIA driver version 445.87 - [LINK](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Don't use GeForce Experience experimental features
+- Don't update GeForce Experience and NVIDIA drivers
