@@ -198,4 +198,4 @@ Files that aren't deleted must be skipped!
 
 **ReShade filters for NVIDIA freestyle:**
 - Download this - [LINK](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
-- Copy folder **Custom** along the path **C:\Program Files\NVIDIA Corporation\Ansel**
+- Copy folder **Custom** along the path **C:\Program Files\NVIDIA Corporation\Ansel** (create Ansel folder if it doesn't exist)

@@ -202,4 +202,4 @@ Escape from Tarkov должен быть установлен на SSD
 
 **ReShade фильтры для NVIDIA freestyle:**
 - Скачайте это - [LINK](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
-- Скопируйте папку **Custom** по пути **C:\Program Files\NVIDIA Corporation\Ansel**
+- Скопируйте папку **Custom** по пути **C:\Program Files\NVIDIA Corporation\Ansel** (создайте папку Ansel при необходимости)
