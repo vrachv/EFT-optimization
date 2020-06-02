@@ -186,7 +186,7 @@ Files that aren't deleted must be skipped!
 > Works: **0.12.6.7526**
 
 - Remove **GeForce Experience**
-- Install this version GE — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
+- Install GE version 3.20.0.118 — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Run **GeForce Experience** and login to your NVIDIA account
 - Press **Win+R**, type **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience**, press enter key and open **NVIDIA GeForce Experience.json** (Using Notepad++ — [Download](https://notepad-plus-plus.org/downloads/))
 - Find **"nv-self-update-path=Downloader\\gfeupdate.json",**
