@@ -12,20 +12,26 @@ Anyone and everyone is welcome to contribute.
 
 ## Table of Contents
 
+### General recommendations
+
 - [Update GPU Drivers](#update-gpu-drivers)
 - [NVIDIA Settings](#nvidia-settings)
 - [AMD Settings](#amd-settings)
-- [Full-screen optimizations](#full-screen-optimizations)
 - [Virtual memory](#virtual-memory)
 - [Power Options](#power-options)
+- [Graphics settings in the game](#graphics-settings-in-the-game)
+- [SSD optimizations](#ssd-optimizations)
+- [How enable NVIDIA Freestyle (12.5+)](#how-enable-nvidia-freestyle)
+
+### For weak PCs
+
+- [Full-screen optimizations](#full-screen-optimizations)
 - [Optimize Background Processes](#optimize-background-processes)
   - [Discord](#discord)
   - [Google Chrome](#google-chrome)
   - [XBOX DVR](#xbox-dvr)
-- [Graphics settings in the game](#graphics-settings-in-the-game)
-- [SSD optimizations](#ssd-optimizations)
 - [Cleaning Temp folder](#cleaning-temp-folder)
-- [How enable NVIDIA Freestyle (12.5+)](#how-enable-nvidia-freestyle)
+
 
 ## Update GPU Drivers
 
@@ -60,15 +66,6 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 
 **TODO**
 
-## Full-screen optimizations
-
-- Go to the root folder of the game
-- Go to **Properties** of the **EscapeFromTarkov.exe**
-- Go to **Compatibility** tab and tick **Disable full-screen optimizations**
-- On the same tab, go to **Change high DPI settings**
-- Tick **Override high DPI scaling behavior** and use the **Scaling performed by:** drop-down menu, and select **Application**
-- **OK** and again **OK**
-
 ## Virtual memory
 
 - Press **Win+R**, type **control** and press enter key
@@ -90,38 +87,6 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 
 - Press **Win+R**, type **powercfg.cpl** and press enter key
 - Select the **High performance**
-
-## Optimize Background Processes
-
-### Discord
-
-- Go to the **User Settings**
-- Go to the **Appearance**
-- Uncheck the **Hardware Acceleration**
-- Go to the **Overlay**
-- Uncheck the **Enable in-game overlay.**
-
-### Google Chrome
-
-- Using the address bar, go **chrome://settings/**
-- Click the **Advanced**
-- Go to the **System** tab
-- Uncheck the **Continue running background apps when Google Chrome is closed**
-
-### XBOX DVR
-
-NVIDIA GPUs are limited to two encoding sessions. Game DVR and Geforce Experience(ShadowPlay) will often consume both of these sessions if enabled, preventing you from recording or streaming(or both simultaneously) when using NVENC. Game DVR can also cause performance issues, it is still recommended to disable Game DVR even if you don't plan on using hardware encoding.
-
-- Right-click the Start button
-- Click **Settings**
-- Click **Gaming**
-- Click **Game Bar**
-- Set **Record game clips, screenshots and broadcast using Game bar** to **Off**
-- Click **Game Mode**
-- Set **Game Mode** to **Off**
-- Click **Captures**
-- Set **Record in the background while I'm playing a game** to **Off**
-- Reboot PC for apply
 
 ## Graphics settings in the game
 
@@ -168,19 +133,6 @@ Escape from Tarkov should be installed on the SSD
 - Type **powercfg -h off** and press enter key
 - Reboot PC for apply
 
-## Cleaning Temp folder
-
-**WARNING**: If you don't understand what temporary files are, don't do this.
-
-- Press **Win+R**, type **%temp%** and press enter key
-- Delete everything in the folder that opens.
-- Press **Win+R**, type **temp** and press enter key
-- Delete everything in the folder that opens.
-- Press **Win+R**, type **prefetch** and press enter key
-- Delete everything in the folder that opens.
-
-Files that aren't deleted must be skipped!
-
 ## How enable NVIDIA Freestyle
 
 > Works: **0.12.6.7526**
@@ -202,3 +154,57 @@ Files that aren't deleted must be skipped!
 **ReShade filters for NVIDIA freestyle:**
 - [Download](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
 - Copy folder **Custom** along the path **C:\Program Files\NVIDIA Corporation\Ansel** (create Ansel folder if it doesn't exist)
+
+## Full-screen optimizations
+
+- Go to the root folder of the game
+- Go to **Properties** of the **EscapeFromTarkov.exe**
+- Go to **Compatibility** tab and tick **Disable full-screen optimizations**
+- On the same tab, go to **Change high DPI settings**
+- Tick **Override high DPI scaling behavior** and use the **Scaling performed by:** drop-down menu, and select **Application**
+- **OK** and again **OK**
+
+## Optimize Background Processes
+
+### Discord
+
+- Go to the **User Settings**
+- Go to the **Appearance**
+- Uncheck the **Hardware Acceleration**
+- Go to the **Overlay**
+- Uncheck the **Enable in-game overlay.**
+
+### Google Chrome
+
+- Using the address bar, go **chrome://settings/**
+- Click the **Advanced**
+- Go to the **System** tab
+- Uncheck the **Continue running background apps when Google Chrome is closed**
+
+### XBOX DVR
+
+NVIDIA GPUs are limited to two encoding sessions. Game DVR and Geforce Experience(ShadowPlay) will often consume both of these sessions if enabled, preventing you from recording or streaming(or both simultaneously) when using NVENC. Game DVR can also cause performance issues, it is still recommended to disable Game DVR even if you don't plan on using hardware encoding.
+
+- Right-click the Start button
+- Click **Settings**
+- Click **Gaming**
+- Click **Game Bar**
+- Set **Record game clips, screenshots and broadcast using Game bar** to **Off**
+- Click **Game Mode**
+- Set **Game Mode** to **Off**
+- Click **Captures**
+- Set **Record in the background while I'm playing a game** to **Off**
+- Reboot PC for apply
+
+## Cleaning Temp folder
+
+**WARNING**: If you don't understand what temporary files are, don't do this.
+
+- Press **Win+R**, type **%temp%** and press enter key
+- Delete everything in the folder that opens.
+- Press **Win+R**, type **temp** and press enter key
+- Delete everything in the folder that opens.
+- Press **Win+R**, type **prefetch** and press enter key
+- Delete everything in the folder that opens.
+
+Files that aren't deleted must be skipped!
