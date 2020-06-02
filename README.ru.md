@@ -14,7 +14,7 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 
 ## Оглавление
 
-### Общие рекомендации
+### [Общие рекомендации](#общие-рекомендации)
 
 - [Обновление драйверов видеокарты](#обновление-драйверов-видеокарты)
 - [Настройки NVIDIA](#настройки-nvidia)
@@ -25,7 +25,7 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 - [Оптимизация SSD](#оптимизация-ssd)
 - [Как включить NVIDIA Freestyle (12.5+)](#как-включить-nvidia-freestyle)
 
-### Для слабых/средних ПК
+### [Для слабых/средних ПК](#для-слабых/средних-пк)
 
 - [Оптимизация полноэкранного режима](#оптимизация-полноэкранного-режима)
 - [Оптимизация фоновых процессов](#оптимизация-фоновых-процессов)
@@ -33,6 +33,8 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
   - [Google Chrome](#google-chrome)
   - [XBOX DVR](#xbox-dvr)
 - [Очистка временных файлов](#очистка-временных-файлов)
+
+# Общие рекомендации
 
 ## Обновление драйверов видеокарты
 
@@ -155,6 +157,8 @@ Escape from Tarkov должен быть установлен на SSD
 **ReShade фильтры для NVIDIA freestyle:**
 - [Скачать](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
 - Скопируйте папку **Custom** по пути **C:\Program Files\NVIDIA Corporation\Ansel** (создайте папку Ansel при необходимости)
+
+# Для слабых/средних ПК
 
 ## Оптимизация полноэкранного режима
 

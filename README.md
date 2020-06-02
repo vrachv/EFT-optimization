@@ -12,7 +12,7 @@ Anyone and everyone is welcome to contribute.
 
 ## Table of Contents
 
-### General recommendations
+### [General recommendations](#general-recommendations)
 
 - [Update GPU Drivers](#update-gpu-drivers)
 - [NVIDIA Settings](#nvidia-settings)
@@ -23,7 +23,7 @@ Anyone and everyone is welcome to contribute.
 - [SSD optimizations](#ssd-optimizations)
 - [How enable NVIDIA Freestyle (12.5+)](#how-enable-nvidia-freestyle)
 
-### For weak PCs
+### [For weak PCs](#for-weak-pcs)
 
 - [Full-screen optimizations](#full-screen-optimizations)
 - [Optimize Background Processes](#optimize-background-processes)
@@ -32,6 +32,7 @@ Anyone and everyone is welcome to contribute.
   - [XBOX DVR](#xbox-dvr)
 - [Cleaning Temp folder](#cleaning-temp-folder)
 
+# General recommendations
 
 ## Update GPU Drivers
 
@@ -154,6 +155,8 @@ Escape from Tarkov should be installed on the SSD
 **ReShade filters for NVIDIA freestyle:**
 - [Download](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
 - Copy folder **Custom** along the path **C:\Program Files\NVIDIA Corporation\Ansel** (create Ansel folder if it doesn't exist)
+
+# For weak PCs
 
 ## Full-screen optimizations
 
