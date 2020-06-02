@@ -12,7 +12,7 @@ Anyone and everyone is welcome to contribute.
 
 ## Table of Contents
 
-### [General recommendations](#general-recommendations)
+### General recommendations
 
 - [Update GPU Drivers](#update-gpu-drivers)
 - [NVIDIA Settings](#nvidia-settings)
@@ -23,7 +23,7 @@ Anyone and everyone is welcome to contribute.
 - [SSD optimizations](#ssd-optimizations)
 - [How enable NVIDIA Freestyle (12.5+)](#how-enable-nvidia-freestyle)
 
-### [For weak PCs](#for-weak-pcs)
+### For weak PCs
 
 - [Full-screen optimizations](#full-screen-optimizations)
 - [Optimize Background Processes](#optimize-background-processes)
