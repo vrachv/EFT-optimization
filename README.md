@@ -188,13 +188,13 @@ Files that aren't deleted must be skipped!
 - Remove **GeForce Experience**
 - Install this version GE — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Run **GeForce Experience** and login to your NVIDIA account
-- Press **Win+R**, type **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience**, press enter key and open **NVIDIA GeForce Experience.json** (Using Notepad++ - [Download](https://notepad-plus-plus.org/downloads/))
+- Press **Win+R**, type **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience**, press enter key and open **NVIDIA GeForce Experience.json** (Using Notepad++ — [Download](https://notepad-plus-plus.org/downloads/))
 - Find **"nv-self-update-path=Downloader\\gfeupdate.json",**
 - Replace **Downloader** with **1Downloader**
 - Save changes and close file
 
 **If something doesn't work::**
-- Install NVIDIA driver version 445.87 - [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
+- Install NVIDIA driver version 445.87 — [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Don't use GeForce Experience experimental features
 - Don't update GeForce Experience and NVIDIA drivers
 
