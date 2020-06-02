@@ -33,9 +33,9 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 
 Рекомендуется установить последнюю версию драйвера для вашего GPU.
 
-Драйвера NVIDIA — [LINK](https://www.nvidia.com/download/index.aspx)
+Драйвера NVIDIA — [Скачать](https://www.nvidia.com/download/index.aspx)
 
-Драйвера AMD — [LINK](https://www.amd.com/en/technologies/radeon-software)
+Драйвера AMD — [Скачать](https://www.amd.com/en/technologies/radeon-software)
 
 ## Настройки NVIDIA
 
@@ -187,19 +187,21 @@ Escape from Tarkov должен быть установлен на SSD
 
 ## Как включить NVIDIA Freestyle
 
+> Работает: **0.12.6.7526**
+
 - Удалите **GeForce Experience**
-- Скачайте и установите — [LINK](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
+- Установите данную версию GE — [Скачать](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Запустите **GeForce Experience** и войдите в свой аккаунт NVIDIA
 - Нажмите **Win+R**, напишите **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience** и нажмите Enter, откройте **NVIDIA GeForce Experience.json** (используйте Notepad++ - [Скачать](https://notepad-plus-plus.org/downloads/))
 - Найдите строчку **"nv-self-update-path=Downloader\\gfeupdate.json",**
 - Замените **Downloader** на **1Downloader**
 - Сохраните изменения и закройте файл
 
-**Дополнения:**
-- Вам нужно установить драйвер версии 445.87 - [LINK](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
+**Если что-то не работает:**
+- Установите драйвер версии 445.87 - [Скачать](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Не используйте эксперементальные функции GeForce Experience
 - Не обновляйте GeForce Experience и драйвера NVIDIA
 
 **ReShade фильтры для NVIDIA freestyle:**
-- Скачайте это - [LINK](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
+- [Скачать](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
 - Скопируйте папку **Custom** по пути **C:\Program Files\NVIDIA Corporation\Ansel** (создайте папку Ansel при необходимости)

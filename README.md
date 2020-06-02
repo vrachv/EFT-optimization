@@ -31,9 +31,9 @@ Anyone and everyone is welcome to contribute.
 
 You must have the latest driver for your GPU.
 
-NVIDIA drivers — [LINK](https://www.nvidia.com/download/index.aspx)
+NVIDIA drivers — [Download](https://www.nvidia.com/download/index.aspx)
 
-AMD drivers — [LINK](https://www.amd.com/en/technologies/radeon-software)
+AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 
 ## NVIDIA Settings
 
@@ -183,19 +183,21 @@ Files that aren't deleted must be skipped!
 
 ## How enable NVIDIA Freestyle
 
+> Works: **0.12.6.7526**
+
 - Remove **GeForce Experience**
-- Download and install — [LINK](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
+- Install this version GE — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Run **GeForce Experience** and login to your NVIDIA account
 - Press **Win+R**, type **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience**, press enter key and open **NVIDIA GeForce Experience.json** (Using Notepad++ - [Download](https://notepad-plus-plus.org/downloads/))
 - Find **"nv-self-update-path=Downloader\\gfeupdate.json",**
 - Replace **Downloader** with **1Downloader**
 - Save changes and close file
 
-**Some updates:**
-- You need to install NVIDIA driver version 445.87 - [LINK](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
+**If something doesn't work::**
+- Install NVIDIA driver version 445.87 - [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Don't use GeForce Experience experimental features
 - Don't update GeForce Experience and NVIDIA drivers
 
 **ReShade filters for NVIDIA freestyle:**
-- Download this - [LINK](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
+- [Download](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
 - Copy folder **Custom** along the path **C:\Program Files\NVIDIA Corporation\Ansel** (create Ansel folder if it doesn't exist)
