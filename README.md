@@ -69,7 +69,7 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 
 ## Virtual memory
 
-- Press **Win+R**, type **control** and press enter key
+- Press **Win+R**, type _control_ and press enter key
 - Go to the **System** and click **Advanced system settings**
 - Click on the **Advanced** tab
 - Click the **Settings** button from under the **Performance**
@@ -79,14 +79,14 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 - Click on the drive on which Windows is installed and set **Custom size**
 - For EFT, it is recommended to set from **15000-25000**, regardless of the size of RAM. **Set the same value on both lines!**
 - Click **Set** and **OK**
-- Press **Win+R**, type **regedit** and press enter key
-- Go to **HKEY_LOCAL_MACHINE \ SYSTEM \ CurrentControlSet \ Control \ Session Manager \ Memory Management**
-- Locate **ClearPageFileAtShutdown** in the right panel and set value **1**
+- Press **Win+R**, type _regedit_ and press enter key
+- Go to _HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management_
+- Locate **ClearPageFileAtShutdown** in the right panel and set value _1_
 - Reboot PC for apply
 
 ## Power Options
 
-- Press **Win+R**, type **powercfg.cpl** and press enter key
+- Press **Win+R**, type _powercfg.cpl_ and press enter key
 - Select the **High performance**
 
 ## Graphics settings in the game
@@ -127,11 +127,11 @@ Escape from Tarkov should be installed on the SSD
 - Go to **Properties** of the **Local Disk (C:)**
 - In **General** tab uncheck **Allow files on this drive to have contents indexed in addition to file properties**
 - **Apply** and **OK**
-- Press **Win+R**, type **services.msc** and press enter key
+- Press **Win+R**, type _services.msc_ and press enter key
 - Find **SysMain** in Services
 - Go to **Properties** and select **Startup Type** on **Disabled**
-- Press **Win** key and type **cmd**, right click the first result and select **Run as administrator**
-- Type **powercfg -h off** and press enter key
+- Press **Win** key and type _cmd_, right click the first result and select **Run as administrator**
+- Type _powercfg -h off_ and press enter key
 - Reboot PC for apply
 
 ## How enable NVIDIA Freestyle
@@ -141,9 +141,9 @@ Escape from Tarkov should be installed on the SSD
 - Remove **GeForce Experience**
 - Install GE version 3.20.0.118 — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Run **GeForce Experience** and login to your NVIDIA account
-- Press **Win+R**, type **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience**, press enter key and open **NVIDIA GeForce Experience.json** (Using Notepad++ — [Download](https://notepad-plus-plus.org/downloads/))
-- Find **"nv-self-update-path=Downloader\\gfeupdate.json",**
-- Replace **Downloader** with **1Downloader**
+- Press **Win+R**, type _C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience_, press enter key and open **NVIDIA GeForce Experience.json** (Using Notepad++ — [Download](https://notepad-plus-plus.org/downloads/))
+- Find _"nv-self-update-path=Downloader\\gfeupdate.json",_
+- Replace _Downloader_ with _1Downloader_
 - Save changes and close file
 
 **If something doesn't work:**
@@ -154,7 +154,7 @@ Escape from Tarkov should be installed on the SSD
 
 **ReShade filters for NVIDIA freestyle:**
 - [Download](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
-- Copy folder **Custom** along the path **C:\Program Files\NVIDIA Corporation\Ansel** (create Ansel folder if it doesn't exist)
+- Copy folder **Custom** along the path _C:\Program Files\NVIDIA Corporation\Ansel_ (create Ansel folder if it doesn't exist)
 
 # For weak PCs
 
@@ -179,7 +179,7 @@ Escape from Tarkov should be installed on the SSD
 
 ### Google Chrome
 
-- Using the address bar, go **chrome://settings/**
+- Using the address bar, go _chrome://settings/_
 - Click the **Advanced**
 - Go to the **System** tab
 - Uncheck the **Continue running background apps when Google Chrome is closed**
@@ -203,11 +203,11 @@ NVIDIA GPUs are limited to two encoding sessions. Game DVR and Geforce Experienc
 
 **WARNING**: If you don't understand what temporary files are, don't do this.
 
-- Press **Win+R**, type **%temp%** and press enter key
+- Press **Win+R**, type _%temp%_ and press enter key
 - Delete everything in the folder that opens.
-- Press **Win+R**, type **temp** and press enter key
+- Press **Win+R**, type _temp_ and press enter key
 - Delete everything in the folder that opens.
-- Press **Win+R**, type **prefetch** and press enter key
+- Press **Win+R**, type _prefetch_ and press enter key
 - Delete everything in the folder that opens.
 
 Files that aren't deleted must be skipped!

@@ -71,7 +71,7 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 
 ## Файл подкачки
 
-- Нажмите **Win+R**, напишите **control** и нажмите **enter**
+- Нажмите **Win+R**, напишите _control_ и нажмите **enter**
 - Перейдите в **Система** и слева нажмите **Дополнительные параметры системы**
 - Перейдите в **Дополнительно**
 - Нажмите **Параметры...** в блоке **Быстродействие**
@@ -79,16 +79,16 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 - Нажмите **Изменить...** в блоке **Виртуальная память**
 - Уберите галочку **Автоматически выбирать объем файла подкачки**
 - Выберите системный диск и нажмите **Указать размер**
-- Для игры Escape from Tarkov рекомендуются значения 15000-25000, независимо от объема установленной оперативной памяти. **Устанавливайте одинаковые значения в обеих строках!**
+- Для игры Escape from Tarkov рекомендуются значения **15000-25000**, независимо от объема установленной оперативной памяти. **Устанавливайте одинаковые значения в обеих строках!**
 - Нажмите **Задать** и **OK**
-- Нажмите **Win+R**, напишите **regedit** и нажмите **enter**
-- Перейдите по пути **HKEY_LOCAL_MACHINE \ SYSTEM \ CurrentControlSet \ Control \ Session Manager \ Memory Management**
-- В правой панели найдите **ClearPageFileAtShutdown** и установите значение **1**
+- Нажмите **Win+R**, напишите _regedit_ и нажмите **enter**
+- Перейдите по пути _HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management_
+- В правой панели найдите **ClearPageFileAtShutdown** и установите значение _1_
 - Перезагрузите компьютер
 
 ## Настройки электропитания
 
-- Нажмите **Win+R**, напишите **powercfg.cpl** и нажмите **enter**
+- Нажмите **Win+R**, напишите _powercfg.cpl_ и нажмите **enter**
 - Выберите **Высокая производительность**
 
 ## Graphics settings in the game
@@ -129,11 +129,11 @@ Escape from Tarkov должен быть установлен на SSD
 - Нажмите ПКМ по **Локальный диск (C:)** и нажмите **Свойства**
 - В **Общие** снимите галочку **Разрешить индексировать содержимое файлов на этом диске в дополнение к свойствам файла**
 - Нажмите **Применить** и **OK**
-- Нажмите **Win+R**, напишите **services.msc** и нажмите **Enter**
+- Нажмите **Win+R**, напишите _services.msc_ и нажмите **Enter**
 - Найдите **SysMain** в Службах
 - Перейдите в **Свойства** и поменяйте **Тип запуска** на **Отключена**
-- Нажмите кнопку **Win** и напишите **cmd**, щелкните ПКМ по первому результату и выберите **Запуск от имени администратора**
-- Напишите **powercfg -h off** и нажмите **Enter**
+- Нажмите кнопку **Win** и напишите _cmd_, щелкните ПКМ по первому результату и выберите **Запуск от имени администратора**
+- Напишите _powercfg -h off_ и нажмите **Enter**
 - Перезагрузите компьютер
 
 ## Как включить NVIDIA Freestyle
@@ -143,9 +143,9 @@ Escape from Tarkov должен быть установлен на SSD
 - Удалите **GeForce Experience**
 - Установите GE версии 3.20.0.118 — [Скачать](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Запустите **GeForce Experience** и войдите в свой аккаунт NVIDIA
-- Нажмите **Win+R**, напишите **C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience** и нажмите Enter, откройте **NVIDIA GeForce Experience.json** (используйте Notepad++ — [Скачать](https://notepad-plus-plus.org/downloads/))
-- Найдите строчку **"nv-self-update-path=Downloader\\gfeupdate.json",**
-- Замените **Downloader** на **1Downloader**
+- Нажмите **Win+R**, напишите _C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience_ и нажмите Enter, откройте **NVIDIA GeForce Experience.json** (используйте Notepad++ — [Скачать](https://notepad-plus-plus.org/downloads/))
+- Найдите строчку _"nv-self-update-path=Downloader\\gfeupdate.json",_
+- Замените _Downloader_ на _1Downloader_
 - Сохраните изменения и закройте файл
 
 **Если что-то не работает:**
@@ -156,7 +156,7 @@ Escape from Tarkov должен быть установлен на SSD
 
 **ReShade фильтры для NVIDIA freestyle:**
 - [Скачать](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
-- Скопируйте папку **Custom** по пути **C:\Program Files\NVIDIA Corporation\Ansel** (создайте папку Ansel при необходимости)
+- Скопируйте папку **Custom** по пути _C:\Program Files\NVIDIA Corporation\Ansel_ (создайте папку Ansel при необходимости)
 
 # Для слабых/средних ПК
 
@@ -181,7 +181,7 @@ Escape from Tarkov должен быть установлен на SSD
 
 ### Google Chrome
 
-- Используя адресную строку, перейдите **chrome://settings/**
+- Используя адресную строку, перейдите _chrome://settings/_
 - В левой панели нажмите **Дополнительные**
 - Перейдите в **Система**
 - Выключите **Не отключать работающие в фоновом режиме сервисы при закрытии браузера**
@@ -205,13 +205,13 @@ Escape from Tarkov должен быть установлен на SSD
 
 **ВНИМАНИЕ**: Если вы не понимаете, что такое временные файлы, не делайте этого!
 
-- Нажмите комбинацию **Win+R**, наберите **%temp%** и нажмите **Enter**
+- Нажмите комбинацию **Win+R**, наберите _%temp%_ и нажмите **Enter**
 - Удалите все файлы в открывшейся папке.
 
-- Нажмите комбинацию **Win+R**, наберите **temp** и нажмите **Enter**
+- Нажмите комбинацию **Win+R**, наберите _temp_ и нажмите **Enter**
 - Удалите все файлы в открывшейся папке.
 
-- Нажмите комбинацию **Win+R**, наберите **prefetch** и нажмите **Enter**
+- Нажмите комбинацию **Win+R**, наберите _prefetch_ и нажмите **Enter**
 - Удалите все файлы в открывшейся папке.
 
 Пропустите неудаляющиеся файлы!
