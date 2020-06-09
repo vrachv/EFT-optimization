@@ -149,7 +149,7 @@ Escape from Tarkov должен быть установлен на SSD
 - Сохраните изменения и закройте файл
 
 **Если что-то не работает:**
-- Удалите драйвер NVIDIA
+- Удалите драйвер NVIDIA (может удалить GE, после установки драйвера придется сделать это еще раз)
 - Установите драйвер версии 445.87 — [Скачать](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Не используйте эксперементальные функции GeForce Experience
 - Не обновляйте GeForce Experience и драйвера NVIDIA

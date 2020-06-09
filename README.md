@@ -147,7 +147,7 @@ Escape from Tarkov should be installed on the SSD
 - Save changes and close file
 
 **If something doesn't work:**
-- Delete NVIDIA driver
+- Delete NVIDIA driver (can remove GE, after installing the driver will have to do it again)
 - Install NVIDIA driver version 445.87 — [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Don't use GeForce Experience experimental features
 - Don't update GeForce Experience and NVIDIA drivers
