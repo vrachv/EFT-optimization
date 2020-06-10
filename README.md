@@ -138,7 +138,7 @@ Escape from Tarkov should be installed on the SSD
 
 > Works: **0.12.6.7679**
 
-- If your NVIDIA driver is newer than version 445.87, uninstall it and install this version - [Скачать](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
+- If your NVIDIA driver is newer than version 445.87, uninstall it and install this version - [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Remove **GeForce Experience**
 - Install GFE version 3.20.0.118 — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Run **GeForce Experience** and login to your NVIDIA account
