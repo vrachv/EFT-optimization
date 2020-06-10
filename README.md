@@ -86,8 +86,9 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 
 ## Power Options
 
-- Press **Win+R**, type `powercfg.cpl` and press enter key
-- Select the **High performance**
+- Press **Win** key and type `cmd`, right click the first result and select **Run as administrator**
+- Copy `powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61`, paste in cmd and press **enter** key
+- Reboot PC for apply
 
 ## Graphics settings in the game
 
