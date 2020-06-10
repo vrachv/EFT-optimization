@@ -138,8 +138,9 @@ Escape from Tarkov should be installed on the SSD
 
 > Works: **0.12.6.7679**
 
+- If your NVIDIA driver is newer than version 445.87, uninstall it and install this version - [Скачать](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Remove **GeForce Experience**
-- Install GE version 3.20.0.118 — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
+- Install GFE version 3.20.0.118 — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Run **GeForce Experience** and login to your NVIDIA account
 - Press **Win+R**, type `C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience`, press enter key and open **NVIDIA GeForce Experience.json** (Using Notepad++ — [Download](https://notepad-plus-plus.org/downloads/))
 - Find `"nv-self-update-path=Downloader\\gfeupdate.json",`
@@ -147,10 +148,8 @@ Escape from Tarkov should be installed on the SSD
 - Save changes and close file
 
 **If something doesn't work:**
-- Delete NVIDIA driver (can remove GE, after you have to install it again)
-- Install NVIDIA driver version 445.87 — [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Don't use GeForce Experience experimental features
-- Don't update GeForce Experience and NVIDIA drivers
+- Carefully check the version of GFE and NVIDIA driver
 
 **ReShade filters for NVIDIA freestyle:**
 - [Download](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)

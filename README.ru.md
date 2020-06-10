@@ -140,8 +140,9 @@ Escape from Tarkov должен быть установлен на SSD
 
 > Работает: **0.12.6.7679**
 
+- Если ваш NVIDIA драйвер новее версии 445.87 удалите его и установите эту версию - [Скачать](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Удалите **GeForce Experience**
-- Установите GE версии 3.20.0.118 — [Скачать](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
+- Установите GFE версии 3.20.0.118 — [Скачать](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
 - Запустите **GeForce Experience** и войдите в свой аккаунт NVIDIA
 - Нажмите **Win+R**, напишите `C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience` и нажмите Enter, откройте **NVIDIA GeForce Experience.json** (используйте Notepad++ — [Скачать](https://notepad-plus-plus.org/downloads/))
 - Найдите строчку `"nv-self-update-path=Downloader\\gfeupdate.json",`
@@ -149,10 +150,8 @@ Escape from Tarkov должен быть установлен на SSD
 - Сохраните изменения и закройте файл
 
 **Если что-то не работает:**
-- Удалите драйвер NVIDIA (может удалить GE, после придется установить его еще раз)
-- Установите драйвер версии 445.87 — [Скачать](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 - Не используйте эксперементальные функции GeForce Experience
-- Не обновляйте GeForce Experience и драйвера NVIDIA
+- Внимательно проверьте версии GFE и NVIDIA драйвера
 
 **ReShade фильтры для NVIDIA freestyle:**
 - [Скачать](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
