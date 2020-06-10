@@ -138,7 +138,7 @@ Escape from Tarkov должен быть установлен на SSD
 
 ## Как включить NVIDIA Freestyle
 
-> Работает: **0.12.6.7526**
+> Работает: **0.12.6.7679**
 
 - Удалите **GeForce Experience**
 - Установите GE версии 3.20.0.118 — [Скачать](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
