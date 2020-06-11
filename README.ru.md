@@ -38,8 +38,8 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 
 Если вы не понимаете или просто не хотите делать все вручную, можете воспользоваться **.reg** файлом. Текстовое руководство содержит больше информации.
 
-- **.reg** файл оптимизации — [Download](https://github.com/vrachv/EFT-optimization/releases/download/1.0.0/optimization.reg)
-- Сброс настроек оптимизации  — [Download](https://github.com/vrachv/EFT-optimization/releases/download/1.0.0/default.reg)
+- **.reg** файл оптимизации — [Скачать](https://github.com/vrachv/EFT-optimization/releases/download/1.0.0/optimization.reg)
+- Сброс настроек оптимизации  — [Скачать](https://github.com/vrachv/EFT-optimization/releases/download/1.0.0/default.reg)
 
 После применения необходимо перезагрузить компьютер.
 
