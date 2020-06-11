@@ -32,6 +32,15 @@ Anyone and everyone is welcome to contribute.
   - [XBOX DVR](#xbox-dvr)
 - [Cleaning Temp folder](#cleaning-temp-folder)
 
+# Fast decision
+
+If you don't understand or don't want to do everything manually, you can use **.reg** file. The text guide contains more information.
+
+- Optimization **.reg** file — [Download](https://github.com/vrachv/EFT-optimization/releases/download/1.0.0/optimization.reg)
+- Reset optimization settings  — [Download](https://github.com/vrachv/EFT-optimization/releases/download/1.0.0/default.reg)
+
+Reboot PC for apply.
+
 # General recommendations
 
 ## Update GPU Drivers
@@ -44,14 +53,14 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 
 ## NVIDIA Settings
 
-- Open **NVIDIA Control Panel**
-- Go to the **Adjust image settings with preview**
-- Click the **Use my preference emphasising** and move the value to **Performance**
-- **Apply**
-- Go to **Manage 3D settings**
-- Click the **Program Settings**
-- Select or add **EscapeFromTarkov.exe** application
-- Set these settings:
+1. Open **NVIDIA Control Panel**
+2. Go to the **Adjust image settings with preview**
+3. Click the **Use my preference emphasising** and move the value to **Performance**
+4. **Apply**
+5. Go to **Manage 3D settings**
+6. Click the **Program Settings**
+7. Select or add **EscapeFromTarkov.exe** application
+8. Set these settings:
 
 | Feature                             | Setting                    |
 | ----------------------------------- | -------------------------- |
@@ -61,7 +70,7 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 | Power management mode               | Prefer maximum performance |
 | Triple buffering                    | Off                        |
 
-- **Apply**
+9. **Apply**
 
 ## AMD Settings
 
@@ -69,26 +78,26 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 
 ## Virtual memory
 
-- Press **Win+R**, type `control` and press enter key
-- Go to the **System** and click **Advanced system settings**
-- Click on the **Advanced** tab
-- Click the **Settings** button from under the **Performance**
-- Click on the **Advanced** tab
-- Click the **Change** button from under the **Virtual memory**
-- Uncheck the **Automatically manage paging file size for all drives** checkbox
-- Click on the drive on which Windows is installed and set **Custom size**
-- For EFT, it is recommended to set from **15000-25000**, regardless of the size of RAM. **Set the same value on both lines!**
-- Click **Set** and **OK**
-- Press **Win+R**, type `regedit` and press enter key
-- Go to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management`
-- Locate **ClearPageFileAtShutdown** in the right panel and set value `1`
-- Reboot PC for apply
+1. Press **Win+R**, type `control` and press enter key
+2. Go to the **System** and click **Advanced system settings**
+3. Click on the **Advanced** tab
+4. Click the **Settings** button from under the **Performance**
+5. Click on the **Advanced** tab
+6. Click the **Change** button from under the **Virtual memory**
+7. Uncheck the **Automatically manage paging file size for all drives** checkbox
+8. Click on the drive on which Windows is installed and set **Custom size**
+9. For EFT, it is recommended to set from **15000-25000**, regardless of the size of RAM. **Set the same value on both lines!**
+10. Click **Set** and **OK**
+11. Press **Win+R**, type `regedit` and press enter key
+12. Go to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management`
+13. Locate **ClearPageFileAtShutdown** in the right panel and set value `1`
+14. Reboot PC for apply
 
 ## Power Options
 
-- Press **Win** key and type `cmd`, right click the first result and select **Run as administrator**
-- Copy `powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61`, paste in cmd and press **enter** key
-- Reboot PC for apply
+1. Press **Win** key and type `cmd`, right click the first result and select **Run as administrator**
+2. Copy `powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61`, paste in cmd and press **enter** key
+3. Reboot PC for apply
 
 ## Graphics settings in the game
 
@@ -124,90 +133,90 @@ Z-Blur, Chrom. aberratins, Noise and Grass Shadows don't affect performance, but
 
 Escape from Tarkov should be installed on the SSD
 
-- Open file explorer and select **This PC**
-- Go to **Properties** of the **Local Disk (C:)**
-- In **General** tab uncheck **Allow files on this drive to have contents indexed in addition to file properties**
-- **Apply** and **OK**
-- Press **Win+R**, type `services.msc` and press enter key
-- Find **SysMain** in Services
-- Go to **Properties** and select **Startup Type** on **Disabled**
-- Press **Win** key and type `cmd`, right click the first result and select **Run as administrator**
-- Type `powercfg -h off` and press enter key
-- Reboot PC for apply
+1. Open file explorer and select **This PC**
+2. Go to **Properties** of the **Local Disk (C:)**
+3. In **General** tab uncheck **Allow files on this drive to have contents indexed in addition to file properties**
+4. **Apply** and **OK**
+5. Press **Win+R**, type `services.msc` and press enter key
+6. Find **SysMain** in Services
+7. Go to **Properties** and select **Startup Type** on **Disabled**
+8. Press **Win** key and type `cmd`, right click the first result and select **Run as administrator**
+9. Type `powercfg -h off` and press enter key
+10. Reboot PC for apply
 
 ## How enable NVIDIA Freestyle
 
 > Works: **0.12.6.7709**
 
-- If your NVIDIA driver is newer than version 445.87, uninstall it and install this version - [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
-- Remove **GeForce Experience**
-- Install GFE version 3.20.0.118 — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
-- Run **GeForce Experience** and login to your NVIDIA account
-- Press **Win+R**, type `C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience`, press enter key and open **NVIDIA GeForce Experience.json** (Using Notepad++ — [Download](https://notepad-plus-plus.org/downloads/))
-- Find `"nv-self-update-path=Downloader\\gfeupdate.json",`
-- Replace `Downloader` with `1Downloader`
-- Save changes and close file
+1. If your NVIDIA driver is newer than version 445.87, uninstall it and install this version - [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
+2. Remove **GeForce Experience**
+3. Install GFE version 3.20.0.118 — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
+4. Run **GeForce Experience** and login to your NVIDIA account
+5. Press **Win+R**, type `C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience`, press enter key and open **NVIDIA GeForce Experience.json** (Using Notepad++ — [Download](https://notepad-plus-plus.org/downloads/))
+6. Find `"nv-self-update-path=Downloader\\gfeupdate.json",`
+7. Replace `Downloader` with `1Downloader`
+8. Save changes and close file
 
 **If something doesn't work:**
 - Don't use GeForce Experience experimental features
 - Carefully check the version of GFE and NVIDIA driver
 
 **ReShade filters for NVIDIA freestyle:**
-- [Download](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
-- Copy folder **Custom** along the path `C:\Program Files\NVIDIA Corporation\Ansel` (create Ansel folder if it doesn't exist)
+1. [Download](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
+2. Copy folder **Custom** along the path `C:\Program Files\NVIDIA Corporation\Ansel` (create Ansel folder if it doesn't exist)
 
 # For weak PCs
 
 ## Full-screen optimizations
 
-- Go to the root folder of the game
-- Go to **Properties** of the **EscapeFromTarkov.exe**
-- Go to **Compatibility** tab and tick **Disable full-screen optimizations**
-- On the same tab, go to **Change high DPI settings**
-- Tick **Override high DPI scaling behavior** and use the **Scaling performed by:** drop-down menu, and select **Application**
-- **OK** and again **OK**
+1. Go to the root folder of the game
+2. Go to **Properties** of the **EscapeFromTarkov.exe**
+3. Go to **Compatibility** tab and tick **Disable full-screen optimizations**
+4. On the same tab, go to **Change high DPI settings**
+5. Tick **Override high DPI scaling behavior** and use the **Scaling performed by:** drop-down menu, and select **Application**
+6. **OK** and again **OK**
 
 ## Optimize Background Processes
 
 ### Discord
 
-- Go to the **User Settings**
-- Go to the **Appearance**
-- Uncheck the **Hardware Acceleration**
-- Go to the **Overlay**
-- Uncheck the **Enable in-game overlay.**
+1. Go to the **User Settings**
+2. Go to the **Appearance**
+3. Uncheck the **Hardware Acceleration**
+4. Go to the **Overlay**
+5. Uncheck the **Enable in-game overlay.**
 
 ### Google Chrome
 
-- Using the address bar, go `chrome://settings/`
-- Click the **Advanced**
-- Go to the **System** tab
-- Uncheck the **Continue running background apps when Google Chrome is closed**
+1. Using the address bar, go `chrome://settings/`
+2. Click the **Advanced**
+3. Go to the **System** tab
+4. Uncheck the **Continue running background apps when Google Chrome is closed**
 
 ### XBOX DVR
 
 NVIDIA GPUs are limited to two encoding sessions. Game DVR and Geforce Experience(ShadowPlay) will often consume both of these sessions if enabled, preventing you from recording or streaming(or both simultaneously) when using NVENC. Game DVR can also cause performance issues, it is still recommended to disable Game DVR even if you don't plan on using hardware encoding.
 
-- Right-click the Start button
-- Click **Settings**
-- Click **Gaming**
-- Click **Game Bar**
-- Set **Record game clips, screenshots and broadcast using Game bar** to **Off**
-- Click **Game Mode**
-- Set **Game Mode** to **Off**
-- Click **Captures**
-- Set **Record in the background while I'm playing a game** to **Off**
-- Reboot PC for apply
+1. Right-click the Start button
+2. Click **Settings**
+3. Click **Gaming**
+4. Click **Game Bar**
+5. Set **Record game clips, screenshots and broadcast using Game bar** to **Off**
+6. Click **Game Mode**
+7. Set **Game Mode** to **Off**
+8. Click **Captures**
+9. Set **Record in the background while I'm playing a game** to **Off**
+10. Reboot PC for apply
 
 ## Cleaning Temp folder
 
 **WARNING**: If you don't understand what temporary files are, don't do this.
 
-- Press **Win+R**, type `%temp%` and press enter key
-- Delete everything in the folder that opens.
-- Press **Win+R**, type `temp` and press enter key
-- Delete everything in the folder that opens.
-- Press **Win+R**, type `prefetch` and press enter key
-- Delete everything in the folder that opens.
+1. Press **Win+R**, type `%temp%` and press enter key
+2. Delete everything in the folder that opens.
+3. Press **Win+R**, type `temp` and press enter key
+4. Delete everything in the folder that opens.
+5. Press **Win+R**, type `prefetch` and press enter key
+6. Delete everything in the folder that opens.
 
 Files that aren't deleted must be skipped!
