@@ -146,7 +146,9 @@ Escape from Tarkov should be installed on the SSD
 
 ## How enable NVIDIA Freestyle
 
-> Works: **0.12.6.7886**
+**Researching**
+
+> DON'T works: **0.12.6.7959**
 
 1. If your NVIDIA driver is newer than version 445.87, uninstall it and install this version - [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 2. Remove **GeForce Experience**
