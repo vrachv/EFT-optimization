@@ -148,6 +148,8 @@ Escape from Tarkov должен быть установлен на SSD
 
 ## Как включить NVIDIA Freestyle
 
+Кикает из рейда через 2-5 минут. Работаю над решением.
+
 > Работает: **0.12.6.7886**
 
 1. Если ваш NVIDIA драйвер новее версии 445.87 удалите его и установите эту версию - [Скачать](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)

@@ -146,6 +146,8 @@ Escape from Tarkov should be installed on the SSD
 
 ## How enable NVIDIA Freestyle
 
+Kicks from the raid for 2-5 minutes. I'm working on a solution.
+
 > Works: **0.12.6.7886**
 
 1. If your NVIDIA driver is newer than version 445.87, uninstall it and install this version - [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
