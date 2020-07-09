@@ -90,10 +90,7 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 8. Выберите системный диск и нажмите **Указать размер**
 9. Для игры Escape from Tarkov рекомендуются значения **15000-25000**, независимо от объема установленной оперативной памяти. **Устанавливайте одинаковые значения в обеих строках!**
 10. Нажмите **Задать** и **OK**
-11. Нажмите **Win+R**, напишите `regedit` и нажмите **enter**
-12. Перейдите по пути `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management`
-13. В правой панели найдите **ClearPageFileAtShutdown** и установите значение `1`
-14. Перезагрузите компьютер
+11. Перезагрузите компьютер
 
 ## Настройки электропитания
 
@@ -148,9 +145,9 @@ Escape from Tarkov должен быть установлен на SSD
 
 ## Как включить NVIDIA Freestyle
 
-Кикает из рейда через 2-5 минут. Работаю над решением.
+Кикает из рейда через 3 минуты.
 
-> Работает: **0.12.6.7886**
+> Неактуально
 
 1. Если ваш NVIDIA драйвер новее версии 445.87 удалите его и установите эту версию - [Скачать](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 2. Удалите **GeForce Experience**

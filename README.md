@@ -88,10 +88,7 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 8. Click on the drive on which Windows is installed and set **Custom size**
 9. For EFT, it is recommended to set from **15000-25000**, regardless of the size of RAM. **Set the same value on both lines!**
 10. Click **Set** and **OK**
-11. Press **Win+R**, type `regedit` and press enter key
-12. Go to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management`
-13. Locate **ClearPageFileAtShutdown** in the right panel and set value `1`
-14. Reboot PC for apply
+11. Reboot PC for apply
 
 ## Power Options
 
@@ -146,9 +143,9 @@ Escape from Tarkov should be installed on the SSD
 
 ## How enable NVIDIA Freestyle
 
-Kicks from the raid for 2-5 minutes. I'm working on a solution.
+Kicks from the raid for 3 minutes.
 
-> Works: **0.12.6.7886**
+> Now it is irrelevant
 
 1. If your NVIDIA driver is newer than version 445.87, uninstall it and install this version - [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
 2. Remove **GeForce Experience**
