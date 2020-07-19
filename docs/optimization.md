@@ -23,6 +23,8 @@ If you think this guide can be improved, please let me know.
 ## Contributing to this project
 Anyone and everyone is welcome to contribute.
 
+[Pull requests](https://github.com/vrachv/EFT-optimization/pulls){: .btn .fs-5 .mb-4 .mb-md-0 }
+
 ## Table of Contents
 
 ### General recommendations
