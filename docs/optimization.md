@@ -12,6 +12,8 @@ last_modified_date: 2020-07-19T01:05:30+0001
 *Localized for Windows 10 - the names of some items may differ slightly depending on your system*
 {: .fs-6 .fw-300 }
 
+---
+
 ## Guidelines
 This guide is designed to improve performance in the game Escape from Tarkov.
 We aren't responsible for your actions on your computer.
