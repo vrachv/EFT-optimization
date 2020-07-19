@@ -1,9 +1,7 @@
 ---
 layout: default
 title: Optimization
-nav_order: 2
-description: "ENG optimization EFT."
-last_modified_date: 2020-07-19T01:05:30+0001
+parent: Optimization
 ---
 
 # Escape from Tarkov optimization guide

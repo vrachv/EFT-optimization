@@ -1,10 +1,7 @@
 ---
 layout: default
 title: Оптимизация
-nav_order: 1
-description: "RU Оптимизация EFT."
-permalink: /
-last_modified_date: 2020-07-19T01:05:30+0001
+parent: Optimization
 ---
 
 # Оптимизация Escape from Tarkov
