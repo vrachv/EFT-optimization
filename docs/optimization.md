@@ -36,7 +36,6 @@ Anyone and everyone is welcome to contribute.
 - [Power Options](#power-options)
 - [Graphics settings in the game](#graphics-settings-in-the-game)
 - [SSD optimizations](#ssd-optimizations)
-- [How enable NVIDIA Freestyle (12.5+)](#how-enable-nvidia-freestyle)
 
 ### For weak PCs
 
@@ -155,29 +154,6 @@ Escape from Tarkov should be installed on the SSD
 8. Press **Win** key and type `cmd`, right click the first result and select **Run as administrator**
 9. Type `powercfg -h off` and press enter key
 10. Reboot PC for apply
-
-### How enable NVIDIA Freestyle
-
-Kicks from the raid for 3 minutes.
-
-> Now it is irrelevant
-
-1. If your NVIDIA driver is newer than version 445.87, uninstall it and install this version - [Download](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
-2. Remove **GeForce Experience**
-3. Install GFE version 3.20.0.118 — [Download](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
-4. Run **GeForce Experience** and login to your NVIDIA account
-5. Press **Win+R**, type `C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience`, press enter key and open **NVIDIA GeForce Experience.json** (Using Notepad++ — [Download](https://notepad-plus-plus.org/downloads/))
-6. Find `"nv-self-update-path=Downloader\\gfeupdate.json",`
-7. Replace `Downloader` with `1Downloader`
-8. Save changes and close file
-
-**If something doesn't work:**
-- Don't use GeForce Experience experimental features
-- Carefully check the version of GFE and NVIDIA driver
-
-**ReShade filters for NVIDIA freestyle:**
-1. [Download](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
-2. Copy folder **Custom** along the path `C:\Program Files\NVIDIA Corporation\Ansel` (create Ansel folder if it doesn't exist)
 
 ## For weak PCs
 

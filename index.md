@@ -39,7 +39,6 @@ last_modified_date: 2020-07-19T01:05:30+0001
 - [Настройки электропитания](#настройки-электропитания)
 - [Graphics settings in the game](#graphics-settings-in-the-game)
 - [Оптимизация SSD](#оптимизация-ssd)
-- [Как включить NVIDIA Freestyle (12.5+)](#как-включить-nvidia-freestyle)
 
 ### Для слабых/средних ПК
 
@@ -158,29 +157,6 @@ Escape from Tarkov должен быть установлен на SSD
 8. Нажмите клавишу **Win** и напишите `cmd`, щелкните ПКМ по первому результату и выберите **Запуск от имени администратора**
 9. Напишите `powercfg -h off` и нажмите **Enter**
 10. Перезагрузите компьютер
-
-### Как включить NVIDIA Freestyle
-
-Кикает из рейда через 3 минуты.
-
-> Неактуально
-
-1. Если ваш NVIDIA драйвер новее версии 445.87 удалите его и установите эту версию - [Скачать](http://us.download.nvidia.com/Windows/445.87/445.87-desktop-win10-64bit-international-dch-whql.exe)
-2. Удалите **GeForce Experience**
-3. Установите GFE версии 3.20.0.118 — [Скачать](https://us.download.nvidia.com/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe)
-4. Запустите **GeForce Experience** и войдите в свой аккаунт NVIDIA
-5. Нажмите **Win+R**, напишите `C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience` и нажмите Enter, откройте **NVIDIA GeForce Experience.json** (используйте Notepad++ — [Скачать](https://notepad-plus-plus.org/downloads/))
-6. Найдите строчку `"nv-self-update-path=Downloader\\gfeupdate.json",`
-7. Замените `Downloader` на `1Downloader`
-8. Сохраните изменения и закройте файл
-
-**Если что-то не работает:**
-- Не используйте эксперементальные функции GeForce Experience
-- Внимательно проверьте версии GFE и NVIDIA драйвера
-
-**ReShade фильтры для NVIDIA freestyle:**
-1. [Скачать](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
-2. Скопируйте папку **Custom** по пути `C:\Program Files\NVIDIA Corporation\Ansel` (создайте папку Ansel при необходимости)
 
 ## Для слабых/средних ПК
 
