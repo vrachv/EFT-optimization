@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Оптимизация
+title: Russian
 parent: Optimization
 ---
 
