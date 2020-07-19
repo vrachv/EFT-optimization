@@ -1,5 +1,16 @@
+---
+layout: default
+title: Optimization
+nav_order: 2
+description: "ENG optimization EFT."
+last_modified_date: 2020-07-19T01:05:30+0001
+---
+
 # Escape from Tarkov optimization guide
-Read this in other languages: [English](README.md), [Russian](README.ru.md)
+{: .fs-9 }
+
+*Localized for Windows 10 - the names of some items may differ slightly depending on your system*
+{: .fs-6 .fw-300 }
 
 ## Guidelines
 This guide is designed to improve performance in the game Escape from Tarkov.
@@ -32,7 +43,7 @@ Anyone and everyone is welcome to contribute.
   - [XBOX DVR](#xbox-dvr)
 - [Cleaning Temp folder](#cleaning-temp-folder)
 
-# Fast decision
+## Fast decision
 
 If you don't understand or don't want to do everything manually, you can use **.reg** file. The text guide contains more information.
 
@@ -41,9 +52,9 @@ If you don't understand or don't want to do everything manually, you can use **.
 
 Reboot PC for apply.
 
-# General recommendations
+## General recommendations
 
-## Update GPU Drivers
+### Update GPU Drivers
 
 You must have the latest driver for your GPU.
 
@@ -51,7 +62,7 @@ NVIDIA drivers — [Download](https://www.nvidia.com/download/index.aspx)
 
 AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 
-## NVIDIA Settings
+### NVIDIA Settings
 
 1. Open **NVIDIA Control Panel**
 2. Go to the **Adjust image settings with preview**
@@ -72,11 +83,11 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 
 9. **Apply**
 
-## AMD Settings
+### AMD Settings
 
 **TODO**
 
-## Virtual memory
+### Virtual memory
 
 1. Press **Win+R**, type `control` and press enter key
 2. Go to the **System** and click **Advanced system settings**
@@ -90,13 +101,13 @@ AMD drivers — [Download](https://www.amd.com/en/technologies/radeon-software)
 10. Click **Set** and **OK**
 11. Reboot PC for apply
 
-## Power Options
+### Power Options
 
 1. Press **Win** key and type `cmd`, right click the first result and select **Run as administrator**
 2. Copy `powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61`, paste in cmd and press **enter** key
 3. Reboot PC for apply
 
-## Graphics settings in the game
+### Graphics settings in the game
 
 Settings for minimum system requirements. If you have a good PC, you can increase the settings.
 
@@ -126,7 +137,7 @@ Settings for minimum system requirements. If you have a good PC, you can increas
 
 Z-Blur, Chrom. aberratins, Noise and Grass Shadows don't affect performance, but may interfere with the gameplay.
 
-## SSD optimizations
+### SSD optimizations
 
 Escape from Tarkov should be installed on the SSD
 
@@ -141,7 +152,7 @@ Escape from Tarkov should be installed on the SSD
 9. Type `powercfg -h off` and press enter key
 10. Reboot PC for apply
 
-## How enable NVIDIA Freestyle
+### How enable NVIDIA Freestyle
 
 Kicks from the raid for 3 minutes.
 
@@ -164,9 +175,9 @@ Kicks from the raid for 3 minutes.
 1. [Download](https://mega.nz/file/kUkjgLZC#_z1lzI1a1eCXDASQ7CwxA_36PGlFg7d7mBsuuWLfofo)
 2. Copy folder **Custom** along the path `C:\Program Files\NVIDIA Corporation\Ansel` (create Ansel folder if it doesn't exist)
 
-# For weak PCs
+## For weak PCs
 
-## Full-screen optimizations
+### Full-screen optimizations
 
 1. Go to the root folder of the game
 2. Go to **Properties** of the **EscapeFromTarkov.exe**
@@ -175,9 +186,9 @@ Kicks from the raid for 3 minutes.
 5. Tick **Override high DPI scaling behavior** and use the **Scaling performed by:** drop-down menu, and select **Application**
 6. **OK** and again **OK**
 
-## Optimize Background Processes
+### Optimize Background Processes
 
-### Discord
+#### Discord
 
 1. Go to the **User Settings**
 2. Go to the **Appearance**
@@ -185,14 +196,14 @@ Kicks from the raid for 3 minutes.
 4. Go to the **Overlay**
 5. Uncheck the **Enable in-game overlay.**
 
-### Google Chrome
+#### Google Chrome
 
 1. Using the address bar, go `chrome://settings/`
 2. Click the **Advanced**
 3. Go to the **System** tab
 4. Uncheck the **Continue running background apps when Google Chrome is closed**
 
-### XBOX DVR
+#### XBOX DVR
 
 NVIDIA GPUs are limited to two encoding sessions. Game DVR and Geforce Experience(ShadowPlay) will often consume both of these sessions if enabled, preventing you from recording or streaming(or both simultaneously) when using NVENC. Game DVR can also cause performance issues, it is still recommended to disable Game DVR even if you don't plan on using hardware encoding.
 
@@ -207,7 +218,7 @@ NVIDIA GPUs are limited to two encoding sessions. Game DVR and Geforce Experienc
 9. Set **Record in the background while I'm playing a game** to **Off**
 10. Reboot PC for apply
 
-## Cleaning Temp folder
+### Cleaning Temp folder
 
 **WARNING**: If you don't understand what temporary files are, don't do this.
 
