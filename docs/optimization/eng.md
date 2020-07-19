@@ -18,10 +18,14 @@ We aren't responsible for your actions on your computer.
 
 If you think this guide can be improved, please let me know.
 
+---
+
 ## Contributing to this project
 Anyone and everyone is welcome to contribute.
 
 [Pull requests](https://github.com/vrachv/EFT-optimization/pulls){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+---
 
 ## Table of Contents
 
@@ -44,6 +48,8 @@ Anyone and everyone is welcome to contribute.
   - [XBOX DVR](#xbox-dvr)
 - [Cleaning Temp folder](#cleaning-temp-folder)
 
+---
+
 ## Fast decision
 
 If you don't understand or don't want to do everything manually, you can use **.reg** file. The text guide contains more information.
@@ -52,6 +58,8 @@ If you don't understand or don't want to do everything manually, you can use **.
 - Reset optimization settings  — [Download](https://github.com/vrachv/EFT-optimization/releases/download/1.0.0/default.reg)
 
 Reboot PC for apply.
+
+---
 
 ## General recommendations
 
@@ -152,6 +160,8 @@ Escape from Tarkov should be installed on the SSD
 8. Press **Win** key and type `cmd`, right click the first result and select **Run as administrator**
 9. Type `powercfg -h off` and press enter key
 10. Reboot PC for apply
+
+---
 
 ## For weak PCs
 
