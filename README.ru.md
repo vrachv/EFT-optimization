@@ -21,7 +21,7 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 - [Настройки AMD](#настройки-amd)
 - [Файл подкачки](#файл-подкачки)
 - [Настройки электропитания](#настройки-электропитания)
-- [Graphics settings in the game](#graphics-settings-in-the-game)
+- [Настройки графики в игре](#настройки-графики-в-игре)
 - [Оптимизация SSD](#оптимизация-ssd)
 
 ### Для слабых/средних ПК
@@ -97,35 +97,35 @@ Read this in other languages: [English](README.md), [Russian](README.ru.md)
 2. Скопируйте `powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61`, вставьте в командную строку и нажмите **enter**
 3. Перезагрузите компьютер
 
-## Graphics settings in the game
+## Настройки графики в игре
 
-Settings for minimum system requirements. If you have a good PC, you can increase the settings.
+Настройки для минимальных системных требований. Если у вас хороший ПК, вы можете увеличить настройки.
 
-| Setting               | Value      |
-| --------------------- | ---------- |
-| Fullscreen mode       | Fullscreen |
-| VSync                 | Disable    |
-| Texture quality       | low-medium |
-| Shadows quality       | low        |
-| Object LOD quality    | 2          |
-| Overall visibility    | 400-1000   |
-| Shadow visibility     | 40         |
-| Antialiasing          | off        |
-| Resampling            | 1x off     |
-| HBAO                  | off        |
-| SSR                   | off        |
-| Anisotropic Filtering | off        |
-| Sharpness             | 0-0.5      |
-| Lobby FPS Limit       | 60         |
-| Game FPS Limit        | 120        |
-| Z-Blur                | Uncheck    |
-| Chrom. aberrations    | Uncheck    |
-| Noise                 | Uncheck    |
-| Grass Shadows         | Uncheck    |
+| Параметр                | Значение       |
+| ----------------------- | -------------- |
+| Режим экрана            | Полноэкранный  |
+| Верт.синх.              | выкл           |
+| Качество текстур        | низкое-среднее |
+| Качество теней          | низкое         |
+| Детализация объектов    | 2              |
+| Общая видимость         | 400-1000       |
+| Видимость теней         | 40             |
+| Сглаживание             | выкл           |
+| Resampling              | 1x выкл        |
+| HBAO                    | выкл           |
+| SSR                     | выкл           |
+| Анизотропная фильтрация | выкл           |
+| Резкость                | 0-0.5          |
+| Лимит кадров в лобби    | 60             |
+| Лимит кадров в игре     | 120            |
+| Z-Blur                  | выкл           |
+| Хром. аберрации         | выкл           |
+| Шум                     | выкл           |
+| Тень от травы           | выкл           |
 
-- Go to the gameplay settings and turn on the auto ram cleaner. This can cause statters! If this is the case, turn off the option to clean the RAM!
+- Зайдите в настройки игры и включите автоочистку оперативной памяти. Если из-за этого появятся фризы, то можно отключить настройку.
 
-Z-Blur, Chrom. aberratins, Noise and Grass Shadows don't affect performance, but may interfere with the gameplay.
+Z-Blur, Хром. аберрации, Шум и Тень от травы не влияют на производительность, но могут мешать игровому процессу.
 
 ## Оптимизация SSD
 
